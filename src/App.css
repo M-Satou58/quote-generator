@@ -1,0 +1,66 @@
+:root{
+  --color-primary: #05141B;
+  --color-secondary: #CB8FB9;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 900px;
+  background-color: #05141BE6;
+
+  padding: 4rem;
+  color:white;
+  border-radius: .5rem;
+}
+
+.quote-container{
+  width: 100%;
+  text-align:center;
+  letter-spacing: 4px;
+}
+.quote-container .quote {
+  font-size:3rem;
+}
+.quote-container .author{
+  margin-top:2rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.social-media-buttons-container{
+  display:flex;
+  gap:1rem;
+}
+
+.social-media-buttons-container .social-button{
+  width: 50px;
+  height: 50px;
+  background-color: var(--color-secondary);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+}
+
+.new-quote{
+  background-color: var(--color-secondary);
+  color:white;
+  font-size: 1.3rem;
+  padding: .5rem;
+  border: 0;
+  border-radius: .2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
